@@ -1,10 +1,32 @@
-# All about the Deep Relation Extraction
-All about the Deep Learning Approachs in Relation Extraction.
+# Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+A curated list of resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
+
+
+## Contents
+* [Research Trends and Surveys](#research-trends-and-surveys)
+* [Papers](#papers)
+	* [Supervised Approaches](#supervised-approaches)
+	* [Distant Supervision Approaches](#distant-supervision-approaches)
+* [Datasets](#datasets)
+* [Videos and Lectures](#videos-and-lectures)
+* [Systems](systems)
+
+
+## Research Trends and Surveys
+* [NLP progress: Relationship Extraction](https://nlpprogress.com/english/relationship_extraction.html)
+* [A Survey of Deep Learning Methods for Relation Extraction](https://arxiv.org/abs/1705.03645) (Kumar, 2017)
+* [A Survey on Relation Extraction](http://www.cs.cmu.edu/~nbach/papers/A-survey-on-Relation-Extraction-Slides.pdf) (Bach and Badaskar, 2017)
+* [Relation Extraction: A Survey](https://arxiv.org/abs/1712.05191) (Pawar et al., 2017)
+* [A Review on Entity Relation Extraction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8269916) (Zhang et al., 2017)
+* [Review of Relation Extraction Methods: What is New Out There?](http://pers-www.wlv.ac.uk/~in0988/documents/aist-final.pdf) (Konstantinova et al., 2014)
+* [100 Best Github: Relation Extraction](http://meta-guide.com/software-meta-guide/100-best-github-relation-extraction)
 
 
 ## Papers
-### Survey
-* **A Survey of Deep Learning Methods for Relation Extraction** (arXiv 2017), S Kumar [[paper]](https://arxiv.org/abs/1705.03645)
+
+### Supervised Approaches
+
+### Distant Supervision Approaches
 
 ### CNN
 * **Convolution Neural Network for Relation Extraction** (ADMA 2013), CY Liu et al. **[[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)** [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21)
@@ -33,3 +55,27 @@ All about the Deep Learning Approachs in Relation Extraction.
 * **Jointly Extracting Relations with Class Ties via Effective Deep Ranking** (arXiv 2016), H Ye et al. [[paper]](https://arxiv.org/abs/1612.07602)
 * **A neural joint model for entity and relation extraction from biomedical text** (BMC bioinformatics 18.1 2017), F Li et al. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1609-9)
 
+[Back to Top](#contents)
+
+
+## Datasets
+
+
+[Back to Top](#contents)
+
+
+## Videos and Lectures
+
+
+[Back to Top](#contents)
+
+
+## Systems
+* [DeepDive](http://deepdive.stanford.edu/)
+* [Stanford Relation Extractor](https://nlp.stanford.edu/software/relationExtractor.html)
+
+[Back to Top](#contents)
+
+
+## Contributing
+Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*
