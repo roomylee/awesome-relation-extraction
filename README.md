@@ -25,25 +25,58 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 ## Papers
 
 ### Supervised Approaches
+#### CNN-based Models
+* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)
+	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
+	* ADMA 2013
+* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)
+	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
+	* COLING 2014
+* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)
+	* Thien Huu Nguyen and Ralph Grishman
+	* NAACL 2015
+* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580)
+	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
+	* ACL 2015
+* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238)
+	* Yatian Shen and Xuanjing Huang
+	* COLING 2016
+* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123)
+	* Linlin Wang, Zhu Cao, Gerard de Melo and Zhiyuan Liu
+	* ACL 2016
+* MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks [[paper]](https://aclanthology.info/pdf/S/S17/S17-2171.pdf)
+	* Ji Young Lee, Franck Dernoncourt and Peter Szolovits
+	* SemEval 2017
+
+#### RNN-based Models
+* Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://www.aclweb.org/anthology/Y15-1009)
+	* Shu Zhang, Dequan Zheng, Xinchen Hu and Ming Yang
+	* PACLIC 2015
+* End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure [[paper]](https://arxiv.org/abs/1601.00770)
+	* Makoto Miwa and Mohit Bansal
+	* ACL 2016
+* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034)
+	* Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao and Bo Xu
+	* ACL 2016
+* Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
+	* Minguang Xiao and Cong Liu
+	* COLING 2016
+* Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing [[paper]]()
+	* Joohong Lee, Sangwoo Seo and Yong Suk Choi
+	* summitted to SDM 2018
+
+	
+	
 
 ### Distant Supervision Approaches
-
-### CNN
-* **Convolution Neural Network for Relation Extraction** (ADMA 2013), CY Liu et al. **[[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)** [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21)
-* **Relation Classification via Convolutional Deep Neural Network** (COLING 2014), D Zeng et al. **[[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)** [[paper]](http://www.aclweb.org/anthology/C14-1220)
-* **Relation Extraction: Perspective from Convolutional Neural Networks** (NAACL 2015), TH Nguyen et al. **[[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)** [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf)
+* **Distant supervision for relation extraction without labeled data** (ACL 2009), M Mintz et al. **[[review]](/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data.md)** [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf)
 * **Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks** (EMNLP 2015), D Zeng et al. **[[review]](/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks.md)** [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf)
 * **Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks** (COLING 2016), X Jiang et al. **[[review]](/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks.md)** [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf)
 * **Incorporating Relation Paths in Neural Relation Extraction** (EMNLP 2017), W Zeng et al. **[[review]](/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction.md)** [[paper]](http://aclweb.org/anthology/D17-1186)
-* **MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks** (SemEval 2017), JY Lee et al. [[paper]](https://aclanthology.info/pdf/S/S17/S17-2171.pdf)
 
-### RNN
-* **End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure** (arXiv 2016), M Miwa et al. [[paper]](https://arxiv.org/abs/1601.00770)
-* **Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification** (ACL 2016), P Zhou et al. [[paper]](http://anthology.aclweb.org/P16-2034)
-* **Neural Relation Extraction with Selective Attention over Instances** (ACL 2016), Y Lin et al. [[paper]](http://www.aclweb.org/anthology/P16-1200)
 
-### Etc.
-* **Distant supervision for relation extraction without labeled data** (ACL 2009), M Mintz et al. **[[review]](/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data.md)** [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf)
+### Miscellaneous
+
 * **End-to-End Neural Relation Extraction with Global Optimization** (EMNLP 2017), M Zhang et al. [[paper]](https://pdfs.semanticscholar.org/0359/cde335fadcfe6f3407722c1a8cc620d0fe8c.pdf)
 * **Adversarial Training for Relation Extraction** (EMNLP 2017), Y Wu et al. [[paper]](https://people.eecs.berkeley.edu/~russell/papers/emnlp17-relation.pdf)
 * **Joint Extraction of Entities and Relations Using Reinforcement Learning and Deep Learning** (Journal of Computational Intelligence and Neuroscience 2017), Y Feng et al. [[paper]](https://www.hindawi.com/journals/cin/2017/7643065/)
@@ -65,6 +98,17 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 
 
 ## Videos and Lectures
+* [Stanford University: CS124](https://web.stanford.edu/class/cs124/), Dan Jurafsky
+	* (Video) [Week 5: Relation Extraction and Question](https://www.youtube.com/watch?v=5SUzf6252_0&list=PLaZQkZp6WhWyszpcteV4LFgJ8lQJ5WIxK&ab_channel=FromLanguagestoInformation)
+* [Washington University: CSE517](https://courses.cs.washington.edu/courses/cse517/), Luke Zettlemoyer
+	* (Slide) [Relation Extraction 1](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtraction.pdf)
+	* (Slide) [Relation Extraction 2](https://courses.cs.washington.edu/courses/cse517/13wi/slides/cse517wi13-RelationExtractionII.pdf)
+* [New York University: CSCI-GA.2590](https://cs.nyu.edu/courses/spring17/CSCI-GA.2590-001/), Ralph Grishman
+	* (Slide) [Relation Extraction: Rule-based Approaches](https://cs.nyu.edu/courses/spring17/CSCI-GA.2590-001/DependencyPaths.pdf)
+* [Michigan University: Coursera](https://ai.umich.edu/portfolio/natural-language-processing/), Dragomir R. Radev
+	* (Video) [Lecture 48: Relation Extraction](https://www.youtube.com/watch?v=TbrlRei_0h8&ab_channel=ArtificialIntelligence-AllinOne)
+* [Virginia University: CS6501-NLP](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/), Kai-Wei Chang
+	* (Slide) [Lecture 24: Relation Extraction](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/slides/24-relation.pdf)
 
 
 [Back to Top](#contents)
@@ -78,4 +122,4 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 
 
 ## Contributing
-Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*
+Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
