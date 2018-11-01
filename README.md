@@ -1,5 +1,8 @@
 # Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![awesome_re](https://user-images.githubusercontent.com/15166794/47853628-a8f9d600-de22-11e8-80e8-26dc6f42cbec.png)
+
 A curated list of resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
+
 
 
 ## Contents
