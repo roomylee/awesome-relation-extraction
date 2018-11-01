@@ -1,12 +1,12 @@
 # Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![awesome_re](https://user-images.githubusercontent.com/15166794/47853628-a8f9d600-de22-11e8-80e8-26dc6f42cbec.png)
+![awesome_re](https://user-images.githubusercontent.com/15166794/47858006-62aa7400-de2e-11e8-82d3-165f66aaaec4.png)
 
 A curated list of resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
 
 ## Contributing
 Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
 
-## Contents
+## Table of Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
