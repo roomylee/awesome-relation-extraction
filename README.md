@@ -1,19 +1,18 @@
 # Awesome Relation Extraction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![awesome_re](https://user-images.githubusercontent.com/15166794/47858006-62aa7400-de2e-11e8-82d3-165f66aaaec4.png)
 
-A curated list of resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
+A curated list of awesome resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
 
-## Contributing
-Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
+**Contributing**: Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
 
-## Table of Contents
+## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
 * [Datasets](#datasets)
-* [Lectures](#lectures)
-* [Systems](systems)
+* [Videos and Lectures](#videos-and-lectures)
+* [Systems](#systems)
 
 
 ## Research Trends and Surveys
@@ -155,7 +154,7 @@ Please feel free to make *[pull requests](https://github.com/roomylee/awesome-re
 [Back to Top](#contents)
 
 
-## Lectures
+## Videos and Lectures
 * [Stanford University: CS124](https://web.stanford.edu/class/cs124/), Dan Jurafsky
 	* (Video) [Week 5: Relation Extraction and Question](https://www.youtube.com/watch?v=5SUzf6252_0&list=PLaZQkZp6WhWyszpcteV4LFgJ8lQJ5WIxK&ab_channel=FromLanguagestoInformation)
 * [Washington University: CSE517](https://courses.cs.washington.edu/courses/cse517/), Luke Zettlemoyer
@@ -178,3 +177,8 @@ Please feel free to make *[pull requests](https://github.com/roomylee/awesome-re
 
 [Back to Top](#contents)
 
+
+## License
+[![license](https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Joohong Lee](https://roomylee.github.io/) has waived all copyright and related or neighboring rights to this work.
