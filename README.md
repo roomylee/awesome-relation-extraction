@@ -3,7 +3,8 @@
 
 A curated list of resources dedicated to Relation Extraction, inspired by [awesome-nlp](https://github.com/keon/awesome-nlp) and [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision).
 
-
+## Contributing
+Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
 
 ## Contents
 * [Research Trends and Surveys](#research-trends-and-surveys)
@@ -30,22 +31,22 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 
 ### Supervised Approaches
 #### CNN-based Models
-* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)
+* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)
 	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
 	* ADMA 2013
-* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)
+* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)
 	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
 	* COLING 2014
-* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)
+* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)
 	* Thien Huu Nguyen and Ralph Grishman
 	* NAACL 2015
-* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580)
+* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
 	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
 	* ACL 2015
 * Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238)
 	* Yatian Shen and Xuanjing Huang
 	* COLING 2016
-* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123)
+* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123) [[code]](https://github.com/lawlietAi/relation-classification-via-attention-model)
 	* Linlin Wang, Zhu Cao, Gerard de Melo and Zhiyuan Liu
 	* ACL 2016
 * MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks [[paper]](https://aclanthology.info/pdf/S/S17/S17-2171.pdf)
@@ -62,7 +63,7 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 * End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure [[paper]](https://arxiv.org/abs/1601.00770)
 	* Makoto Miwa and Mohit Bansal
 	* ACL 2016
-* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034)
+* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034) [[code]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
 	* Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao and Bo Xu
 	* ACL 2016
 * Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
@@ -117,7 +118,7 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 * Neural Relation Extraction with Selective Attention over Instances [[paper]](http://www.aclweb.org/anthology/P16-1200) [[code]](https://github.com/thunlp/OpenNRE/)
 	* Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan and Maosong Sun
 	* ACL 2017
-* Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification)
+* Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
 	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
 	* CoNLL 2017
 * RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
@@ -177,6 +178,3 @@ A curated list of resources dedicated to Relation Extraction, inspired by [aweso
 
 [Back to Top](#contents)
 
-
-## Contributing
-Please feel free to make *[pull requests](https://github.com/roomylee/awesome-relation-extraction/pulls)*.
