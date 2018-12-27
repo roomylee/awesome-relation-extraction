@@ -93,6 +93,10 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Bidirectional Recurrent Convolutional Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P16-1072)
 	* Rui Cai, Xiaodong Zhang and Houfeng Wang
 	* ACL 2016
+* Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning [[paper]](https://arxiv.org/abs/1808.06738)
+	* Tianyi Liu, Xinsong Zhang, Wanhao Zhou, Weijia Jia
+	* EMNLP 2018
+	
 
 
 ### Distant Supervision Approaches
