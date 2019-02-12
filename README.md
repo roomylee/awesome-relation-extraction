@@ -109,7 +109,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Multi-instance Multi-label Learning for Relation Extraction [[paper]](http://www.aclweb.org/anthology/D12-1042) [[code]](https://nlp.stanford.edu/software/mimlre.shtml)
 	* Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati and Christopher D. Manning
 	* EMNLP-CoNLL 2012
-* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks.md)
+* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
 	* Daojian Zeng, Kang Liu, Yubo Chen and Jun Zhao
 	* EMNLP 2015
 * Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks.md)
