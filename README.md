@@ -68,7 +68,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
 	* Minguang Xiao and Cong Liu
 	* COLING 2016
-* Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing [[paper]](https://arxiv.org/abs/1901.08163)
+* Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing [[paper]](https://arxiv.org/abs/1901.08163) [[code]](https://github.com/roomylee/entity-aware-relation-classification)
 	* Joohong Lee, Sangwoo Seo and Yong Suk Choi
 	* arXiv 2019
 
