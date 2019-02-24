@@ -83,7 +83,8 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* Yang Liu, Furu Wei, Sujian Li, Heng Ji, Ming Zhou and Houfeng Wang
 	* ACL 2015
 * Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Path [[paper]](https://arxiv.org/abs/1508.03720) [[code]](https://github.com/Sshanu/Relation-Classification)
-	* Xu Yan, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng and Zhi Jin	* EMNLP 2015
+	* Xu Yan, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng and Zhi Jin
+	* EMNLP 2015
 * Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling [[paper]](https://www.aclweb.org/anthology/D/D15/D15-1062.pdf)
 	* Kun Xu, Yansong Feng, Songfang Huang and Dongyan Zhao
 	* EMNLP 2015
