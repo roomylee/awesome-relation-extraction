@@ -125,6 +125,10 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
 	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
 	* CoNLL 2017
+	
+* Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention[[paper]](https://aclweb.org/anthology/D18-1247)[[code]](https://github.com/thunlp/HNRE)
+	* Xu Han, Pengfei Yu∗, Zhiyuan Liu, Maosong Sun, Peng Li
+	* EMNLP 2018
 * RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
 	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
 	* EMNLP 2018
