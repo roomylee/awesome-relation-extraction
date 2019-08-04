@@ -10,6 +10,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
+	* [Language Models](#language-models)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -132,6 +133,13 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
 	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
 	* EMNLP 2018
+	
+	
+### Language Models
+
+* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/pdf/1905.08284.pdf)
+    * Shanchan Wu, Yifan He
+    * arXiv 2019
 
 ### Few-Shot Learning Approaches
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
