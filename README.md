@@ -97,8 +97,6 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning [[paper]](https://arxiv.org/abs/1808.06738)
 	* Tianyi Liu, Xinsong Zhang, Wanhao Zhou, Weijia Jia
 	* EMNLP 2018
-	
-
 
 ### Distant Supervision Approaches
 * Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data.md)
@@ -125,14 +123,12 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
 	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
 	* CoNLL 2017
-	
 * Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention[[paper]](https://aclweb.org/anthology/D18-1247)[[code]](https://github.com/thunlp/HNRE)
 	* Xu Han, Pengfei Yu∗, Zhiyuan Liu, Maosong Sun, Peng Li
 	* EMNLP 2018
 * RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
 	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
 	* EMNLP 2018
-	
 	
 ### Language Models
 * Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/pdf/1905.08284.pdf)
@@ -146,7 +142,6 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
 	* Xu Han, Hao Zhu, Pengfei Yu, Ziyun Wang, Yuan Yao, Zhiyuan Liu, Maosong Sun
 	* EMNLP 2018
-
 
 ### Miscellaneous
 * Jointly Extracting Relations with Class Ties via Effective Deep Ranking [[paper]](http://aclweb.org/anthology/P17-1166)
