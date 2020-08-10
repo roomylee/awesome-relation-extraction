@@ -42,7 +42,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
 	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
 	* ACL 2015
-* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238)
+* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238) [[code]](https://github.com/nicolay-r/mlp-attention)
 	* Yatian Shen and Xuanjing Huang
 	* COLING 2016
 * Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123) [[code]](https://github.com/lawlietAi/relation-classification-via-attention-model)
