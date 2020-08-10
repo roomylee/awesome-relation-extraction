@@ -30,13 +30,13 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 
 ### Supervised Approaches
 #### CNN-based Models
-* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Neural_Network_for_Relation_Extraction.md)
+* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Convolution%20Neural%20Network%20for%20Relation%20Extraction/review.md)
 	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
 	* ADMA 2013
-* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network.md)
+* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network/review.md)
 	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
 	* COLING 2014
-* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks.md)
+* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks/review.md)
 	* Thien Huu Nguyen and Ralph Grishman
 	* NAACL 2015
 * Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
@@ -99,7 +99,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* EMNLP 2018
 
 ### Distant Supervision Approaches
-* Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data.md)
+* Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data/review.md)
 	* Mike Mintz, Steven Bills, Rion Snow and Dan Jurafsky
 	* ACL 2009
 * Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations [[paper]](http://www.aclweb.org/anthology/P11-1055) [[code]](http://aiweb.cs.washington.edu/ai/raphaelh/mr/)
@@ -108,13 +108,13 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Multi-instance Multi-label Learning for Relation Extraction [[paper]](http://www.aclweb.org/anthology/D12-1042) [[code]](https://nlp.stanford.edu/software/mimlre.shtml)
 	* Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati and Christopher D. Manning
 	* EMNLP-CoNLL 2012
-* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
+* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
 	* Daojian Zeng, Kang Liu, Yubo Chen and Jun Zhao
 	* EMNLP 2015
-* Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks.md) [[code]](https://github.com/may-/cnn-re-tf)
+* Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/may-/cnn-re-tf)
 	* Xiaotian Jiang, Quan Wang, Peng Li, Bin Wang
 	* COLING 2016
-* Incorporating Relation Paths in Neural Relation Extraction [[paper]](http://aclweb.org/anthology/D17-1186) [[review]](/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction.md)
+* Incorporating Relation Paths in Neural Relation Extraction [[paper]](http://aclweb.org/anthology/D17-1186) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction/review.md)
 	* Wenyuan Zeng, Yankai Lin, Zhiyuan Liu and Maosong Sun
 	* EMNLP 2017
 * Neural Relation Extraction with Selective Attention over Instances [[paper]](http://www.aclweb.org/anthology/P16-1200) [[code]](https://github.com/thunlp/OpenNRE/)
