@@ -97,10 +97,20 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning [[paper]](https://arxiv.org/abs/1808.06738)
 	* Tianyi Liu, Xinsong Zhang, Wanhao Zhou, Weijia Jia
 	* EMNLP 2018
+	
 #### GNN-based Models
+* Matching the Blanks: Distributional Similarity for Relation Learning [[paper]](https://arxiv.org/abs/1906.03158)
+    * Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski
+    * ACL 2019
 * Relation of the Relations: A New Paradigm of the Relation Extraction Problem [[paper]](https://arxiv.org/abs/2006.03719)
 	* Zhijing Jin, Yongyi Yang, Xipeng Qiu, Zheng Zhang
 	* EMNLP 2020
+* GDPNet: Refining Latent Multi-View Graph for Relation Extraction 
+    [[paper]](https://arxiv.org/abs/2012.06780.pdf)
+    [[code]](https://github.com/XueFuzhao/GDPNet)
+    * Fuzhao Xue, Aixin Sun, Hao Zhang, Eng Siong Chng
+    * AAAI 21
+	
 ### Distant Supervision Approaches
 * Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data/review.md)
 	* Mike Mintz, Steven Bills, Rion Snow and Dan Jurafsky
