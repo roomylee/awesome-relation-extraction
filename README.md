@@ -111,7 +111,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     * Fuzhao Xue, Aixin Sun, Hao Zhang, Eng Siong Chng
     * AAAI 21
 * RECON: Relation Extraction using Knowledge Graph Context in a Graph Neural Network
-    [[parer]](https://arxiv.org/pdf/2009.08694.pdf)
+    [[parer]](https://arxiv.org/abs/2009.08694.pdf)
     [[code]](https://github.com/ansonb/RECON)
     * Anson Bastos, Abhishek Nadgeri, Kuldeep Singh, Isaiah Onando Mulang', Saeedeh Shekarpour, Johannes Hoffart, Manohar Kaul
     * WWW'21
@@ -149,10 +149,10 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* EMNLP 2018
 	
 ### Language Models
-* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/pdf/1905.08284.pdf)
+* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
     * Shanchan Wu, Yifan He
     * arXiv 2019
-* SpanBERT: Improving pre-training by representing and predicting spans [[paper]](https://arxiv.org/pdf/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
+* SpanBERT: Improving pre-training by representing and predicting spans [[paper]](https://arxiv.org/abs/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
     * Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer and Omer Levy
     * Transactions of the Association for Computational Linguistics 2020
 
