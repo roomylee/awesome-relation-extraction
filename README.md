@@ -110,6 +110,11 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     [[code]](https://github.com/XueFuzhao/GDPNet)
     * Fuzhao Xue, Aixin Sun, Hao Zhang, Eng Siong Chng
     * AAAI 21
+* RECON: Relation Extraction using Knowledge Graph Context in a Graph Neural Network
+    [[parer]](https://arxiv.org/pdf/2009.08694.pdf)
+    [[code]](https://github.com/ansonb/RECON)
+    * Anson Bastos, Abhishek Nadgeri, Kuldeep Singh, Isaiah Onando Mulang', Saeedeh Shekarpour, Johannes Hoffart, Manohar Kaul
+    * WWW'21
 	
 ### Distant Supervision Approaches
 * Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data/review.md)
