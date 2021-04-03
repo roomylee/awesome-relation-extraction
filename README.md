@@ -12,7 +12,8 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
     * [GNN-based Models](#gnn-based-models)
 	* [Language Models](#language-models)
-	    * [Encoder-based from Transformers](#language-models)
+	    * [Encoder Representation from Transformer](#encoder-representation-from-transformer)
+	    * [Decoder Representation from Transformer](#decoder-representation-from-transformer)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -167,6 +168,14 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Efficient long-distance relation extraction with DG-SpanBERT
     [[paper]](https://arxiv.org/abs/2004.03636)
     * Jun Chen, Robert Hoehndorf, Mohamed Elhoseiny, Xiangliang Zhang
+    
+#### Decoder Representation from Transformer
+* Improving Relation Extraction by Pretrained Language Representations
+    [[paper]](https://arxiv.org/abs/1906.03088)
+    [[review]](https://openreview.net/forum?id=BJgrxbqp67)
+    [[code]](https://github.com/DFKI-NLP/TRE)
+    * Christoph Alt, Marc Hübner, Leonhard Hennig
+    * AKBC 19
 
 ### Few-Shot Learning Approaches
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
