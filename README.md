@@ -156,9 +156,17 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
     * Shanchan Wu, Yifan He
     * arXiv 2019
+* LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention
+    [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.523/)
+    [[code]](https://github.com/studio-ousia/luke)
+    * Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto
+    * EMNLP 2020
 * SpanBERT: Improving pre-training by representing and predicting spans [[paper]](https://arxiv.org/abs/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
     * Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer and Omer Levy
-    * Transactions of the Association for Computational Linguistics 2020
+    * TACL 2020 (Transactions of the Association for Computational Linguistics)
+* Efficient long-distance relation extraction with DG-SpanBERT
+    [[paper]](https://arxiv.org/abs/2004.03636)
+    * Jun Chen, Robert Hoehndorf, Mohamed Elhoseiny, Xiangliang Zhang
 
 ### Few-Shot Learning Approaches
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
