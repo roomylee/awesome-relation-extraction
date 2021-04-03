@@ -10,7 +10,9 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
+    * [GNN-based Models](#gnn-based-models)
 	* [Language Models](#language-models)
+	    * [Encoder-based from Transformers](#language-models)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -149,6 +151,8 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* EMNLP 2018
 	
 ### Language Models
+
+#### Encoder Representation from Transformer
 * Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
     * Shanchan Wu, Yifan He
     * arXiv 2019
