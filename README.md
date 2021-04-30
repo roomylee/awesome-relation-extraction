@@ -17,6 +17,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
+* [Frameworks](#frameworks)
 
 
 ## Research Trends and Surveys
@@ -150,6 +151,11 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
 	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
 	* EMNLP 2018
+* Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions
+    [[paper]](https://arxiv.org/abs/1904.00143.pdf)
+    [[code]](https://github.com/ZhixiuYe/Intra-Bag-and-Inter-Bag-Attentions)
+    * Zhi-Xiu Ye, Zhen-Hua Ling
+    * NAACL 2019
 	
 ### Language Models
 
@@ -240,6 +246,13 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 ## Systems
 * [DeepDive](http://deepdive.stanford.edu/)
 * [Stanford Relation Extractor](https://nlp.stanford.edu/software/relationExtractor.html)
+
+[Back to Top](#contents)
+
+
+## Frameworks
+* [OpenNRE](https://github.com/thunlp/OpenNRE)
+* [AREkit](https://github.com/nicolay-r/AREkit)
 
 [Back to Top](#contents)
 
