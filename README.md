@@ -220,6 +220,22 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     [[Website]](https://nlp.stanford.edu/projects/tacred/) 
     [[download]](https://catalog.ldc.upenn.edu/LDC2018T24)
     * Is a large-scale relation extraction dataset with built over newswire and web text from the corpus used in the yearly TAC Knowledge Base Population (TAC KBP) challenges.
+* ACE05: 
+    [[Website]](https://catalog.ldc.upenn.edu/LDC2006T06) 
+    [[download-info]](https://www.ldc.upenn.edu/language-resources/data/obtaining)
+    * This dataset represet texts extracted from a variety of sources: broadcast conversation, broadcast news, newsgroups, weblogs. The
+    6 relation types between 7 types on entities: acility (FAC), Geo-PoliticalEntity (GPE), Location (LOC), Organization (ORG), 
+    Person (PER), Vehicle (VEH), Weapon (WEA).
+* SemEval-2018 Task 7
+    [[paper]](https://www.aclweb.org/anthology/S18-1111.pdf)
+    [[Website]](https://competitions.codalab.org/competitions/17422)
+    [[download]](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/)
+    * The corpus is collected from abstracts and introductions of scientific papers, and
+    there are six types of semantic relations in total.
+    There are three subtasks of it: Subtask
+    1.1 and Subtask 1.2 are relation classification on
+    clean and noisy data, respectively; Subtask 2 is
+    the standard relation extraction.
 
 For state of the art results check out [nlpprogress.com on relation extraction](https://nlpprogress.com/english/relationship_extraction.html)
 
