@@ -223,7 +223,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * ACE05: 
     [[Website]](https://catalog.ldc.upenn.edu/LDC2006T06) 
     [[download-info]](https://www.ldc.upenn.edu/language-resources/data/obtaining)
-    * This dataset represet texts extracted from a variety of sources: broadcast conversation, broadcast news, newsgroups, weblogs. The
+    * This dataset represent texts extracted from a variety of sources: broadcast conversation, broadcast news, newsgroups, weblogs. The
     6 relation types between 7 types on entities: acility (FAC), Geo-PoliticalEntity (GPE), Location (LOC), Organization (ORG), 
     Person (PER), Vehicle (VEH), Weapon (WEA).
 * SemEval-2018 Task 7
