@@ -267,8 +267,18 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 
 
 ## Frameworks
-* [OpenNRE](https://github.com/thunlp/OpenNRE)
-* [AREkit](https://github.com/nicolay-r/AREkit)
+* **OpenNRE** [[github]](https://github.com/thunlp/OpenNRE) [[paper]](https://aclanthology.org/D19-3029.pdf)
+    * Is an open-source and extensible toolkit that provides a unified framework to implement neural models for relation extraction (RE) between named entities. 
+    It is designed for various scenarios for RE, including sentence-level RE, bag-level RE, document-level RE, and few-shot RE. 
+    It provides various functional RE modules based on both TensorFlow and PyTorch to maintain sufficient modularity and extensibility, making it becomes easy to incorporate new models into the framework.
+* **AREkit** [[github]](https://github.com/nicolay-r/AREkit) [[research-applicable-paper]](https://arxiv.org/pdf/2006.13730.pdf)
+    * Is an open-source toolkit focused on data preparation for document-level relation extraction organization. 
+    It address the OpenNRE since *document-level RE setting is not widely explored* (2.4 [[paper]](https://aclanthology.org/D19-3029.pdf)).
+    It includes (1) API for document presentation with EL (Entity Linking, i.e. Object Synonymy) support 
+    for sentence level relations preparation (2) relations transferring from sentence-level onto document-level.
+    It providers contrib modules of [neural networks](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/networks) (like OpenNRE) and 
+    [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) applicable for sentiment attitude extraction task.
+    
 
 [Back to Top](#contents)
 
