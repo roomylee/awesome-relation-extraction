@@ -272,12 +272,19 @@ For state of the art results check out [nlpprogress.com on relation extraction](
     It is designed for various scenarios for RE, including sentence-level RE, bag-level RE, document-level RE, and few-shot RE. 
     It provides various functional RE modules based on both TensorFlow and PyTorch to maintain sufficient modularity and extensibility, making it becomes easy to incorporate new models into the framework.
 * **AREkit** [[github]](https://github.com/nicolay-r/AREkit) [[research-applicable-paper]](https://arxiv.org/pdf/2006.13730.pdf)
-    * Is an open-source toolkit focused on data preparation for document-level relation extraction organization. 
-    It address the OpenNRE since *document-level RE setting is not widely explored* (2.4 [[paper]](https://aclanthology.org/D19-3029.pdf)).
-    It includes (1) API for document presentation with EL (Entity Linking, i.e. Object Synonymy) support 
-    for sentence level relations preparation (2) relations transferring from sentence-level onto document-level.
-    It providers contrib modules of [neural networks](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/networks) (like OpenNRE) and 
-    [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) applicable for sentiment attitude extraction task.
+    * Is an open-source and extensible toolkit focused on data preparation for document-level relation extraction organization. 
+    It complements the OpenNRE functionality, as in terms of the latter, *document-level RE setting is not widely explored* (2.4 [[paper]](https://aclanthology.org/D19-3029.pdf)).
+    The core functionality includes 
+    (1) API for document presentation with EL (Entity Linking, i.e. Object Synonymy) support 
+    for sentence level relations preparation (dubbed as contexts)
+    (2) API for contexts extraction
+    (3) relations transferring from sentence-level onto document-level, etc.
+    It provides 
+    [neural networks](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/networks) (like OpenNRE)
+    and
+    [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) modules,
+    both applicable for sentiment attitude extraction task.    
+    
     
 
 [Back to Top](#contents)
