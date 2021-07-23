@@ -220,6 +220,22 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     [[Website]](https://nlp.stanford.edu/projects/tacred/) 
     [[download]](https://catalog.ldc.upenn.edu/LDC2018T24)
     * Is a large-scale relation extraction dataset with built over newswire and web text from the corpus used in the yearly TAC Knowledge Base Population (TAC KBP) challenges.
+* ACE05: 
+    [[Website]](https://catalog.ldc.upenn.edu/LDC2006T06) 
+    [[download-info]](https://www.ldc.upenn.edu/language-resources/data/obtaining)
+    * This dataset represent texts extracted from a variety of sources: broadcast conversation, broadcast news, newsgroups, weblogs. The
+    6 relation types between 7 types on entities: acility (FAC), Geo-PoliticalEntity (GPE), Location (LOC), Organization (ORG), 
+    Person (PER), Vehicle (VEH), Weapon (WEA).
+* SemEval-2018 Task 7
+    [[paper]](https://www.aclweb.org/anthology/S18-1111.pdf)
+    [[Website]](https://competitions.codalab.org/competitions/17422)
+    [[download]](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/)
+    * The corpus is collected from abstracts and introductions of scientific papers, and
+    there are six types of semantic relations in total.
+    There are three subtasks of it: Subtask
+    1.1 and Subtask 1.2 are relation classification on
+    clean and noisy data, respectively; Subtask 2 is
+    the standard relation extraction.
 
 For state of the art results check out [nlpprogress.com on relation extraction](https://nlpprogress.com/english/relationship_extraction.html)
 
@@ -251,8 +267,25 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 
 
 ## Frameworks
-* [OpenNRE](https://github.com/thunlp/OpenNRE)
-* [AREkit](https://github.com/nicolay-r/AREkit)
+* **OpenNRE** [[github]](https://github.com/thunlp/OpenNRE) [[paper]](https://aclanthology.org/D19-3029.pdf)
+    * Is an open-source and extensible toolkit that provides a unified framework to implement neural models for relation extraction (RE) between named entities. 
+    It is designed for various scenarios for RE, including sentence-level RE, bag-level RE, document-level RE, and few-shot RE. 
+    It provides various functional RE modules based on both TensorFlow and PyTorch to maintain sufficient modularity and extensibility, making it becomes easy to incorporate new models into the framework.
+* **AREkit** [[github]](https://github.com/nicolay-r/AREkit) [[research-applicable-paper]](https://arxiv.org/pdf/2006.13730.pdf)
+    * Is an open-source and extensible toolkit focused on data preparation for document-level relation extraction organization. 
+    It complements the OpenNRE functionality, as in terms of the latter, *document-level RE setting is not widely explored* (2.4 [[paper]](https://aclanthology.org/D19-3029.pdf)).
+    The core functionality includes 
+    (1) API for document presentation with EL (Entity Linking, i.e. Object Synonymy) support 
+    for sentence level relations preparation (dubbed as contexts)
+    (2) API for contexts extraction
+    (3) relations transferring from sentence-level onto document-level, etc.
+    It provides 
+    [neural networks](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/networks) (like OpenNRE)
+    and
+    [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) modules,
+    both applicable for sentiment attitude extraction task.    
+    
+    
 
 [Back to Top](#contents)
 
