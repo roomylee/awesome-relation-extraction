@@ -283,7 +283,13 @@ For state of the art results check out [nlpprogress.com on relation extraction](
     [neural networks](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/networks) (like OpenNRE)
     and
     [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) modules,
-    both applicable for sentiment attitude extraction task.    
+    both applicable for sentiment attitude extraction task.
+* DeRE [[github]](https://github.com/ims-tcl/DeRE) [[paper]](https://aclanthology.org/D18-2008/)
+	* Is an open-source framework for **de**claritive **r**elation **e**xtraction, and therefore allows to declare your own task (using XML schemas) and apply manually implemented models towards it (using a provided API).
+	The task declaration builds on top of the *spans* and *relations between spans*. In terms of the latter, authors propose *frames*, where every frame yelds of: (1) *trigger* (span) and (2) *n*-slots, where every slot
+	may refer to *frame* or *span*. 
+	The framework poses no theoretical restrictions to the window from which frames are extracted.
+	Thus, this concept may cover sentence-level, document-level and multi-document RE tasks.
     
     
 
