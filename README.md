@@ -14,6 +14,8 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	* [Language Models](#language-models)
 	    * [Encoder Representation from Transformer](#encoder-representation-from-transformer)
 	    * [Decoder Representation from Transformer](#decoder-representation-from-transformer)
+    * [Knowledge Graph Based Approaches](#knowledge-graph-based-approaches)
+    * [Few-Shot Learning Approaches](#few-shot-learning-approaches)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -183,6 +185,13 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     * Christoph Alt, Marc Hübner, Leonhard Hennig
     * AKBC 19
 
+### Knowledge Graph Based Approaches
+* KGPool: Dynamic Knowledge Graph Context Selection for Relation Extraction
+  	[[paper]](https://arxiv.org/pdf/2106.00459.pdf)
+  	[[code]](https://github.com/nadgeri14/KGPool)
+	* Abhishek Nadgeri, Anson Bastos, Kuldeep Singh, Isaiah Onando Mulang, Johannes Hoffart, Saeedeh Shekarpour, and Vijay Saraswat
+	* ACL 2021 (findings)
+
 ### Few-Shot Learning Approaches
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
 	* Xu Han, Hao Zhu, Pengfei Yu, Ziyun Wang, Yuan Yao, Zhiyuan Liu, Maosong Sun
@@ -284,7 +293,7 @@ For state of the art results check out [nlpprogress.com on relation extraction](
     and
     [BERT](https://github.com/nicolay-r/AREkit/tree/0.21.0-rc/contrib/bert) modules,
     both applicable for sentiment attitude extraction task.
-* DeRE [[github]](https://github.com/ims-tcl/DeRE) [[paper]](https://aclanthology.org/D18-2008/)
+* **DeRE** [[github]](https://github.com/ims-tcl/DeRE) [[paper]](https://aclanthology.org/D18-2008/)
 	* Is an open-source framework for **de**claritive **r**elation **e**xtraction, and therefore allows to declare your own task (using XML schemas) and apply manually implemented models towards it (using a provided API).
 	The task declaration builds on top of the *spans* and *relations between spans*. In terms of the latter, authors propose *frames*, where every frame yelds of: (1) *trigger* (span) and (2) *n*-slots, where every slot
 	may refer to *frame* or *span*. 
