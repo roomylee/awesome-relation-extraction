@@ -9,13 +9,17 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
+	    * [CNN-based Models](#cnn-based-models)
+	    * [RNN-based Models](#rnn-based-models)
+	    * [Depenency-based Models](#dependency-based-models)
+	    * [GNN-based Models](#gnn-based-models)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
-    * [GNN-based Models](#gnn-based-models)
-	* [Language Models](#language-models)
-	    * [Encoder Representation from Transformer](#encoder-representation-from-transformer)
-	    * [Decoder Representation from Transformer](#decoder-representation-from-transformer)
+	* [Language Model based Approaches](#language-models)
+	    * [Encoder Representation from Transformer Models](#encoder-representation-from-transformer-models)
+	    * [Decoder Representation from Transformer Models](#decoder-representation-from-transformer-models)
     * [Knowledge Graph Based Approaches](#knowledge-graph-based-approaches)
     * [Few-Shot Learning Approaches](#few-shot-learning-approaches)
+    * [Miscellaneous](#miscellaneous)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -159,9 +163,9 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     * Zhi-Xiu Ye, Zhen-Hua Ling
     * NAACL 2019
 	
-### Language Models
+### Language Model based Approaches
 
-#### Encoder Representation from Transformer
+#### Encoder Representation from Transformer Models
 * Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
     * Shanchan Wu, Yifan He
     * arXiv 2019
@@ -177,7 +181,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
     [[paper]](https://arxiv.org/abs/2004.03636)
     * Jun Chen, Robert Hoehndorf, Mohamed Elhoseiny, Xiangliang Zhang
     
-#### Decoder Representation from Transformer
+#### Decoder Representation from Transformer Models
 * Improving Relation Extraction by Pretrained Language Representations
     [[paper]](https://arxiv.org/abs/1906.03088)
     [[review]](https://openreview.net/forum?id=BJgrxbqp67)
@@ -264,7 +268,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 * [Virginia University: CS6501-NLP](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/), Kai-Wei Chang
 	* (Slide) [Lecture 24: Relation Extraction](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/slides/24-relation.pdf)
 
-
 [Back to Top](#contents)
 
 
@@ -300,8 +303,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 	The framework poses no theoretical restrictions to the window from which frames are extracted.
 	Thus, this concept may cover sentence-level, document-level and multi-document RE tasks.
     
-    
-
 [Back to Top](#contents)
 
 
