@@ -14,7 +14,7 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 	    * [Depenency-based Models](#dependency-based-models)
 	    * [GNN-based Models](#gnn-based-models)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
-	* [Language Model based Approaches](#language-models)
+	* [Language Model based Approaches](#language-model-based-approaches)
 	    * [Encoder Representation from Transformer Models](#encoder-representation-from-transformer-models)
 	    * [Decoder Representation from Transformer Models](#decoder-representation-from-transformer-models)
     * [Knowledge Graph Based Approaches](#knowledge-graph-based-approaches)
