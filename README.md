@@ -214,6 +214,9 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * Joint Extraction of Entities and Relations Using Reinforcement Learning and Deep Learning [[paper]](https://www.hindawi.com/journals/cin/2017/7643065/)
 	* Yuntian Feng, Hongjun Zhang, Wenning Hao, and Gang Chen
 	* Journal of Computational Intelligence and Neuroscience 2017
+* TDEER: An Efficient Translating Decoding Schema for Joint Extraction of Entities and Relations [[paper]](https://aclanthology.org/2021.emnlp-main.635/) [[code]](https://github.com/4ai/tdeer)
+	* Xianming Li, Xiaotian Luo, Chenghao Dong, Daichuan Yang, Beidi Luan and Zhen He
+	* EMNLP 2021
 
 [Back to Top](#contents)
 
