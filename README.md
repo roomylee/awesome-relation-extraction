@@ -9,13 +9,17 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 * [Research Trends and Surveys](#research-trends-and-surveys)
 * [Papers](#papers)
 	* [Supervised Approaches](#supervised-approaches)
+	    * [CNN-based Models](#cnn-based-models)
+	    * [RNN-based Models](#rnn-based-models)
+	    * [Depenency-based Models](#dependency-based-models)
+	    * [GNN-based Models](#gnn-based-models)
 	* [Distant Supervision Approaches](#distant-supervision-approaches)
-    * [GNN-based Models](#gnn-based-models)
-	* [Language Models](#language-models)
-	    * [Encoder Representation from Transformer](#encoder-representation-from-transformer)
-	    * [Decoder Representation from Transformer](#decoder-representation-from-transformer)
+	* [Language Model based Approaches](#language-model-based-approaches)
+	    * [Encoder Representation from Transformer Models](#encoder-representation-from-transformer-models)
+	    * [Decoder Representation from Transformer Models](#decoder-representation-from-transformer-models)
     * [Knowledge Graph Based Approaches](#knowledge-graph-based-approaches)
     * [Few-Shot Learning Approaches](#few-shot-learning-approaches)
+    * [Miscellaneous](#miscellaneous)
 * [Datasets](#datasets)
 * [Videos and Lectures](#videos-and-lectures)
 * [Systems](#systems)
@@ -37,154 +41,176 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
 
 ### Supervised Approaches
 #### CNN-based Models
-* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Convolution%20Neural%20Network%20for%20Relation%20Extraction/review.md)
-	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
-	* ADMA 2013
-* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network/review.md)
-	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
-	* COLING 2014
-* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks/review.md)
-	* Thien Huu Nguyen and Ralph Grishman
-	* NAACL 2015
-* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
-	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
-	* ACL 2015
-* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238) [[code]](https://github.com/nicolay-r/mlp-attention)
-	* Yatian Shen and Xuanjing Huang
-	* COLING 2016
-* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123) [[code]](https://github.com/lawlietAi/relation-classification-via-attention-model)
-	* Linlin Wang, Zhu Cao, Gerard de Melo and Zhiyuan Liu
-	* ACL 2016
 * MIT at SemEval-2017 Task 10: Relation Extraction with Convolutional Neural Networks [[paper]](https://aclanthology.info/pdf/S/S17/S17-2171.pdf)
 	* Ji Young Lee, Franck Dernoncourt and Peter Szolovits
 	* SemEval 2017
+* Relation Classification via Multi-Level Attention CNNs [[paper]](http://aclweb.org/anthology/P16-1123) [[code]](https://github.com/lawlietAi/relation-classification-via-attention-model)
+	* Linlin Wang, Zhu Cao, Gerard de Melo and Zhiyuan Liu
+	* ACL 2016
+* Attention-Based Convolutional Neural Network for Semantic Relation Extraction [[paper]](http://www.aclweb.org/anthology/C16-1238) [[code]](https://github.com/nicolay-r/mlp-attention)
+	* Yatian Shen and Xuanjing Huang
+	* COLING 2016
+* Classifying Relations by Ranking with Convolutional Neural Networks [[paper]](https://arxiv.org/abs/1504.06580) [[code]](https://github.com/pratapbhanu/CRCNN)
+	* Cicero Nogueira dos Santos, Bing Xiang and Bowen Zhou
+	* ACL 2015
+* Relation Extraction: Perspective from Convolutional Neural Networks [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction-Perspective_from_Convolutional_Neural_Networks/review.md)
+	* Thien Huu Nguyen and Ralph Grishman
+	* NAACL 2015
+* Relation Classification via Convolutional Deep Neural Network [[paper]](http://www.aclweb.org/anthology/C14-1220) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Classification_via_Convolutional_Deep_Neural_Network/review.md)
+	* Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao
+	* COLING 2014
+* Convolution Neural Network for Relation Extraction [[paper]](https://link.springer.com/chapter/10.1007/978-3-642-53917-6_21) [[code]](https://github.com/roomylee/cnn-relation-extraction) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Convolution%20Neural%20Network%20for%20Relation%20Extraction/review.md)
+	* ChunYang Liu, WenBo Sun, WenHan Chao and WanXiang Che
+	* ADMA 2013
+	
+[Back to Top](#contents)
+
 
 #### RNN-based Models
-* Relation Classification via Recurrent Neural Network [[paper]](https://arxiv.org/abs/1508.01006)
-	* Dongxu Zhang and Dong Wang
-	* arXiv 2015
-* Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://www.aclweb.org/anthology/Y15-1009)
-	* Shu Zhang, Dequan Zheng, Xinchen Hu and Ming Yang
-	* PACLIC 2015
-* End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure [[paper]](https://arxiv.org/abs/1601.00770)
-	* Makoto Miwa and Mohit Bansal
-	* ACL 2016
-* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034) [[code]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
-	* Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao and Bo Xu
-	* ACL 2016
-* Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
-	* Minguang Xiao and Cong Liu
-	* COLING 2016
 * Semantic Relation Classification via Bidirectional LSTM Networks with Entity-aware Attention using Latent Entity Typing [[paper]](https://arxiv.org/abs/1901.08163) [[code]](https://github.com/roomylee/entity-aware-relation-classification)
 	* Joohong Lee, Sangwoo Seo and Yong Suk Choi
 	* arXiv 2019
+* Semantic Relation Classification via Hierarchical Recurrent Neural Network with Attention [[paper]](http://www.aclweb.org/anthology/C16-1119)
+	* Minguang Xiao and Cong Liu
+	* COLING 2016
+* Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://anthology.aclweb.org/P16-2034) [[code]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
+	* Peng Zhou, Wei Shi, Jun Tian, Zhenyu Qi, Bingchen Li, Hongwei Hao and Bo Xu
+	* ACL 2016
+* End-to-End Relation Extraction using LSTMs on Sequences and Tree Structure [[paper]](https://arxiv.org/abs/1601.00770)
+	* Makoto Miwa and Mohit Bansal
+	* ACL 2016
+* Bidirectional Long Short-Term Memory Networks for Relation Classification [[paper]](http://www.aclweb.org/anthology/Y15-1009)
+	* Shu Zhang, Dequan Zheng, Xinchen Hu and Ming Yang
+	* PACLIC 2015
+* Relation Classification via Recurrent Neural Network [[paper]](https://arxiv.org/abs/1508.01006)
+	* Dongxu Zhang and Dong Wang
+	* arXiv 2015
+	
+[Back to Top](#contents)
+
 
 #### Dependency-based Models
-* Semantic Compositionality through Recursive Matrix-Vector Spaces [[paper]](http://aclweb.org/anthology/D12-1110) [[code]](https://github.com/pratapbhanu/MVRNN)
-	* Richard Socher, Brody Huval, Christopher D. Manning and Andrew Y. Ng
-	* EMNLP-CoNLL 2012
-* Factor-based Compositional Embedding Models [[paper]](https://www.cs.cmu.edu/~mgormley/papers/yu+gormley+dredze.nipsw.2014.pdf)
-	* Mo Yu, Matthw R. Gormley and Mark Dredze
-	* NIPS Workshop on Learning Semantics 2014
-* A Dependency-Based Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P15-2047)
-	* Yang Liu, Furu Wei, Sujian Li, Heng Ji, Ming Zhou and Houfeng Wang
-	* ACL 2015
-* Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Path [[paper]](https://arxiv.org/abs/1508.03720) [[code]](https://github.com/Sshanu/Relation-Classification)
-	* Xu Yan, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng and Zhi Jin
-	* EMNLP 2015
-* Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling [[paper]](https://www.aclweb.org/anthology/D/D15/D15-1062.pdf)
-	* Kun Xu, Yansong Feng, Songfang Huang and Dongyan Zhao
-	* EMNLP 2015
-* Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation [[paper]](https://arxiv.org/abs/1601.03651)
-	* Yan Xu, Ran Jia, Lili Mou, Ge Li, Yunchuan Chen, Yangyang Lu and Zhi Jin
-	* COLING 2016
-* Bidirectional Recurrent Convolutional Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P16-1072)
-	* Rui Cai, Xiaodong Zhang and Houfeng Wang
-	* ACL 2016
 * Neural Relation Extraction via Inner-Sentence Noise Reduction and Transfer Learning [[paper]](https://arxiv.org/abs/1808.06738)
 	* Tianyi Liu, Xinsong Zhang, Wanhao Zhou, Weijia Jia
 	* EMNLP 2018
+* Bidirectional Recurrent Convolutional Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P16-1072)
+	* Rui Cai, Xiaodong Zhang and Houfeng Wang
+	* ACL 2016
+* Improved Relation Classification by Deep Recurrent Neural Networks with Data Augmentation [[paper]](https://arxiv.org/abs/1601.03651)
+	* Yan Xu, Ran Jia, Lili Mou, Ge Li, Yunchuan Chen, Yangyang Lu and Zhi Jin
+	* COLING 2016
+* Semantic Relation Classification via Convolutional Neural Networks with Simple Negative Sampling [[paper]](https://www.aclweb.org/anthology/D/D15/D15-1062.pdf)
+	* Kun Xu, Yansong Feng, Songfang Huang and Dongyan Zhao
+	* EMNLP 2015
+* Classifying Relations via Long Short Term Memory Networks along Shortest Dependency Path [[paper]](https://arxiv.org/abs/1508.03720) [[code]](https://github.com/Sshanu/Relation-Classification)
+	* Xu Yan, Lili Mou, Ge Li, Yunchuan Chen, Hao Peng and Zhi Jin
+	* EMNLP 2015
+* A Dependency-Based Neural Network for Relation Classification [[paper]](http://www.aclweb.org/anthology/P15-2047)
+	* Yang Liu, Furu Wei, Sujian Li, Heng Ji, Ming Zhou and Houfeng Wang
+	* ACL 2015
+* Factor-based Compositional Embedding Models [[paper]](https://www.cs.cmu.edu/~mgormley/papers/yu+gormley+dredze.nipsw.2014.pdf)
+	* Mo Yu, Matthw R. Gormley and Mark Dredze
+	* NIPS Workshop on Learning Semantics 2014
+* Semantic Compositionality through Recursive Matrix-Vector Spaces [[paper]](http://aclweb.org/anthology/D12-1110) [[code]](https://github.com/pratapbhanu/MVRNN)
+	* Richard Socher, Brody Huval, Christopher D. Manning and Andrew Y. Ng
+	* EMNLP-CoNLL 2012
+	
+[Back to Top](#contents)
+
 	
 #### GNN-based Models
-* Matching the Blanks: Distributional Similarity for Relation Learning [[paper]](https://arxiv.org/abs/1906.03158)
-    * Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski
-    * ACL 2019
-* Relation of the Relations: A New Paradigm of the Relation Extraction Problem [[paper]](https://arxiv.org/abs/2006.03719)
-	* Zhijing Jin, Yongyi Yang, Xipeng Qiu, Zheng Zhang
-	* EMNLP 2020
-* GDPNet: Refining Latent Multi-View Graph for Relation Extraction 
-    [[paper]](https://arxiv.org/abs/2012.06780.pdf)
-    [[code]](https://github.com/XueFuzhao/GDPNet)
-    * Fuzhao Xue, Aixin Sun, Hao Zhang, Eng Siong Chng
-    * AAAI 21
 * RECON: Relation Extraction using Knowledge Graph Context in a Graph Neural Network
     [[parer]](https://arxiv.org/abs/2009.08694.pdf)
     [[code]](https://github.com/ansonb/RECON)
     * Anson Bastos, Abhishek Nadgeri, Kuldeep Singh, Isaiah Onando Mulang', Saeedeh Shekarpour, Johannes Hoffart, Manohar Kaul
-    * WWW'21
+    * WWW'21, 2021
+* GDPNet: Refining Latent Multi-View Graph for Relation Extraction 
+    [[paper]](https://arxiv.org/abs/2012.06780.pdf)
+    [[code]](https://github.com/XueFuzhao/GDPNet)
+    * Fuzhao Xue, Aixin Sun, Hao Zhang, Eng Siong Chng
+    * AAAI 21, 2021
+* Relation of the Relations: A New Paradigm of the Relation Extraction Problem [[paper]](https://arxiv.org/abs/2006.03719)
+	* Zhijing Jin, Yongyi Yang, Xipeng Qiu, Zheng Zhang
+	* EMNLP 2020
+* Matching the Blanks: Distributional Similarity for Relation Learning [[paper]](https://arxiv.org/abs/1906.03158)
+    * Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski
+    * ACL 2019
+    
+[Back to Top](#contents)
+
 	
 ### Distant Supervision Approaches
-* Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data/review.md)
-	* Mike Mintz, Steven Bills, Rion Snow and Dan Jurafsky
-	* ACL 2009
-* Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations [[paper]](http://www.aclweb.org/anthology/P11-1055) [[code]](http://aiweb.cs.washington.edu/ai/raphaelh/mr/)
-	* Raphael Hoffmann, Congle Zhang, Xiao Ling, Luke Zettlemoyer and Daniel S. Weld
-	* ACL 2011
-* Multi-instance Multi-label Learning for Relation Extraction [[paper]](http://www.aclweb.org/anthology/D12-1042) [[code]](https://nlp.stanford.edu/software/mimlre.shtml)
-	* Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati and Christopher D. Manning
-	* EMNLP-CoNLL 2012
-* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
-	* Daojian Zeng, Kang Liu, Yubo Chen and Jun Zhao
-	* EMNLP 2015
-* Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/may-/cnn-re-tf)
-	* Xiaotian Jiang, Quan Wang, Peng Li, Bin Wang
-	* COLING 2016
-* Incorporating Relation Paths in Neural Relation Extraction [[paper]](http://aclweb.org/anthology/D17-1186) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction/review.md)
-	* Wenyuan Zeng, Yankai Lin, Zhiyuan Liu and Maosong Sun
-	* EMNLP 2017
-* Neural Relation Extraction with Selective Attention over Instances [[paper]](http://www.aclweb.org/anthology/P16-1200) [[code]](https://github.com/thunlp/OpenNRE/)
-	* Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan and Maosong Sun
-	* ACL 2017
-* Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
-	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
-	* CoNLL 2017
-* Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention[[paper]](https://aclweb.org/anthology/D18-1247)[[code]](https://github.com/thunlp/HNRE)
-	* Xu Han, Pengfei Yu∗, Zhiyuan Liu, Maosong Sun, Peng Li
-	* EMNLP 2018
-* RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
-	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
-	* EMNLP 2018
 * Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions
     [[paper]](https://arxiv.org/abs/1904.00143.pdf)
     [[code]](https://github.com/ZhixiuYe/Intra-Bag-and-Inter-Bag-Attentions)
     * Zhi-Xiu Ye, Zhen-Hua Ling
     * NAACL 2019
+* RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information [[paper]](http://malllabiisc.github.io/publications/papers/reside_emnlp18.pdf) [[code]](https://github.com/malllabiisc/RESIDE)
+	* Shikhar Vashishth, Rishabh Joshi, Sai Suman Prayaga, Chiranjib Bhattacharyya and Partha Talukdar
+	* EMNLP 2018
+* Hierarchical Relation Extraction with Coarse-to-Fine Grained Attention[[paper]](https://aclweb.org/anthology/D18-1247)[[code]](https://github.com/thunlp/HNRE)
+	* Xu Han, Pengfei Yu∗, Zhiyuan Liu, Maosong Sun, Peng Li
+	* EMNLP 2018
+* Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text [[paper]](http://www.aclweb.org/anthology/K17-1032) [[code]](https://github.com/desh2608/crnn-relation-classification) [[code]](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)
+	* Desh Raj, Sunil Kumar Sahu and Ashish Anan
+	* CoNLL 2017
+* Neural Relation Extraction with Selective Attention over Instances [[paper]](http://www.aclweb.org/anthology/P16-1200) [[code]](https://github.com/thunlp/OpenNRE/)
+	* Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan and Maosong Sun
+	* ACL 2017
+* Incorporating Relation Paths in Neural Relation Extraction [[paper]](http://aclweb.org/anthology/D17-1186) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Incorporating_Relation_Paths_in_Neural_Relation_Extraction/review.md)
+	* Wenyuan Zeng, Yankai Lin, Zhiyuan Liu and Maosong Sun
+	* EMNLP 2017
+* Relation Extraction with Multi-instance Multi-label Convolutional Neural Networks [[paper]](https://pdfs.semanticscholar.org/8731/369a707046f3f8dd463d1fd107de31d40a24.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Relation_Extraction_with_Multi-instance_Multi-label_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/may-/cnn-re-tf)
+	* Xiaotian Jiang, Quan Wang, Peng Li, Bin Wang
+	* COLING 2016
+* Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks [[paper]](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP203.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_Supervision_for_Relation_Extraction_via_Piecewise_Convolutional_Neural_Networks/review.md) [[code]](https://github.com/nicolay-r/sentiment-pcnn)
+	* Daojian Zeng, Kang Liu, Yubo Chen and Jun Zhao
+	* EMNLP 2015
+* Multi-instance Multi-label Learning for Relation Extraction [[paper]](http://www.aclweb.org/anthology/D12-1042) [[code]](https://nlp.stanford.edu/software/mimlre.shtml)
+	* Mihai Surdeanu, Julie Tibshirani, Ramesh Nallapati and Christopher D. Manning
+	* EMNLP-CoNLL 2012
+* Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations [[paper]](http://www.aclweb.org/anthology/P11-1055) [[code]](http://aiweb.cs.washington.edu/ai/raphaelh/mr/)
+	* Raphael Hoffmann, Congle Zhang, Xiao Ling, Luke Zettlemoyer and Daniel S. Weld
+	* ACL 2011
+* Distant supervision for relation extraction without labeled data [[paper]](https://web.stanford.edu/~jurafsky/mintz.pdf) [[review]](https://github.com/roomylee/paper-review/blob/master/relation_extraction/Distant_supervision_for_relation_extraction_without_labeled_data/review.md)
+	* Mike Mintz, Steven Bills, Rion Snow and Dan Jurafsky
+	* ACL 2009
 	
-### Language Models
+[Back to Top](#contents)
 
-#### Encoder Representation from Transformer
-* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
-    * Shanchan Wu, Yifan He
-    * arXiv 2019
+	
+### Language Model based Approaches
+
+#### Encoder Representation from Transformer Models
+* Efficient long-distance relation extraction with DG-SpanBERT
+    [[paper]](https://arxiv.org/abs/2004.03636)
+    * Jun Chen, Robert Hoehndorf, Mohamed Elhoseiny, Xiangliang Zhang
+    * 2020
+* SpanBERT: Improving pre-training by representing and predicting spans [[paper]](https://arxiv.org/abs/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
+    * Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer and Omer Levy
+    * TACL 2020 (Transactions of the Association for Computational Linguistics)
 * LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention
     [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.523/)
     [[code]](https://github.com/studio-ousia/luke)
     * Ikuya Yamada, Akari Asai, Hiroyuki Shindo, Hideaki Takeda, Yuji Matsumoto
     * EMNLP 2020
-* SpanBERT: Improving pre-training by representing and predicting spans [[paper]](https://arxiv.org/abs/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
-    * Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer and Omer Levy
-    * TACL 2020 (Transactions of the Association for Computational Linguistics)
-* Efficient long-distance relation extraction with DG-SpanBERT
-    [[paper]](https://arxiv.org/abs/2004.03636)
-    * Jun Chen, Robert Hoehndorf, Mohamed Elhoseiny, Xiangliang Zhang
+* Enriching Pre-trained Language Model with Entity Information for Relation Classification [[paper]](https://arxiv.org/abs/1905.08284.pdf)
+    * Shanchan Wu, Yifan He
+    * arXiv 2019
     
-#### Decoder Representation from Transformer
+[Back to Top](#contents)
+
+    
+#### Decoder Representation from Transformer Models
 * Improving Relation Extraction by Pretrained Language Representations
     [[paper]](https://arxiv.org/abs/1906.03088)
     [[review]](https://openreview.net/forum?id=BJgrxbqp67)
     [[code]](https://github.com/DFKI-NLP/TRE)
     * Christoph Alt, Marc Hübner, Leonhard Hennig
     * AKBC 19
+    
+[Back to Top](#contents)
+
 
 ### Knowledge Graph Based Approaches
 * KGPool: Dynamic Knowledge Graph Context Selection for Relation Extraction
@@ -192,11 +218,17 @@ A curated list of awesome resources dedicated to Relation Extraction, inspired b
   	[[code]](https://github.com/nadgeri14/KGPool)
 	* Abhishek Nadgeri, Anson Bastos, Kuldeep Singh, Isaiah Onando Mulang, Johannes Hoffart, Saeedeh Shekarpour, and Vijay Saraswat
 	* ACL 2021 (findings)
+	
+[Back to Top](#contents)
+
 
 ### Few-Shot Learning Approaches
 * FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation [[paper]](https://arxiv.org/abs/1810.10147) [[website]](http://zhuhao.me/fewrel) [[code]](https://github.com/ProKil/FewRel)
 	* Xu Han, Hao Zhu, Pengfei Yu, Ziyun Wang, Yuan Yao, Zhiyuan Liu, Maosong Sun
 	* EMNLP 2018
+	
+[Back to Top](#contents)
+
 
 ### Miscellaneous
 * Jointly Extracting Relations with Class Ties via Effective Deep Ranking [[paper]](http://aclweb.org/anthology/P17-1166)
@@ -268,7 +300,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 * [Virginia University: CS6501-NLP](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/), Kai-Wei Chang
 	* (Slide) [Lecture 24: Relation Extraction](http://web.cs.ucla.edu/~kwchang/teaching/NLP16/slides/24-relation.pdf)
 
-
 [Back to Top](#contents)
 
 
@@ -304,8 +335,6 @@ For state of the art results check out [nlpprogress.com on relation extraction](
 	The framework poses no theoretical restrictions to the window from which frames are extracted.
 	Thus, this concept may cover sentence-level, document-level and multi-document RE tasks.
     
-    
-
 [Back to Top](#contents)
 
 
